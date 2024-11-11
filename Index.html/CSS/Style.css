@@ -1,0 +1,113 @@
+*{margin: 0;
+padding: 0;}
+
+#toto{background-image: url(../IMG/ciel.jpeg);
+	background-repeat: no-repat;
+	background-size: cover;
+	text-align: center;
+	justify-content: center;
+	
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+#logo{
+	width: 15%;
+	float:left ;
+}
+
+header{
+	display: flex;
+	justify-content: center;}
+
+h1{
+	color: red;
+	font-size: 4em;
+}
+
+
+
+section{
+	background: linear-gradient(to right, #060833, skyblue);
+	margin-top: 50px;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: -10px;
+
+
+
+	
+}
+
+p{
+	color: white;
+}
+#fire{
+	display: inline-block;
+  	height: 80%;
+  	width: 50%;
+  	margin: 10%;
+  	border: solid 4%;
+}
+
+#water{
+	height: 70px;
+	width: 100%;
+	border: 2px solid;
+	border-image: linear-gradient(to right, #f7ff00, #db36a4);
+	border-image-slice: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	margin: 40px;
+
+}
+
+#bareune{
+	height: 100px;
+	width: 90%;
+	border: 5px solid;
+	border-image: linear-gradient(to right, #f7ff00, #db36a4);
+	border-image-slice: 1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 60px;
+	}
+
+	#feuille{
+	height: 60px;
+	width: 150px;
+	border: 2px solid;
+	border-image: linear-gradient(to right, #f7ff00, #db36a4);
+	border-image-slice: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+
+.tent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.loiret{
+	height: 300px;
+	width: 200px;
+	border: 2px solid;
+	border-image: linear-gradient(to right, #f7ff00, #db36a4);
+	border-image-slice: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.yaourt{
+	display: flex;
+	justify-content: space-between;
+}
